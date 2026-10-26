@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: Arial, sans-serif;
+background: #fffaf0;
+color: #38251d;
+line-height: 1.6;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 8%;
+background: #7b1e16;
+color: white;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+.logo {
+font-size: 20px;
+font-weight: bold;
+}
+
+nav {
+display: flex;
+gap: 18px;
+flex-wrap: wrap;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+nav a:hover {
+color: #ffd27d;
+}
+
+.hero {
+text-align: center;
+padding: 100px 20px;
+background: #f5d5a4;
+}
+
+.hero h1 {
+font-size: 42px;
+margin: 15px 0;
+color: #7b1e16;
+}
+
+.button {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 24px;
+background: #a52a20;
+color: white;
+text-decoration: none;
+border-radius: 25px;
+font-weight: bold;
+}
+
+.button:hover {
+background: #7b1e16;
+}
+
+section:not(.hero) {
+padding: 65px 8%;
+text-align: center;
+}
+
+section h2 {
+margin-bottom: 20px;
+color: #7b1e16;
+}
+
+.products {
+display: flex;
+justify-content: center;
+gap: 25px;
+flex-wrap: wrap;
+}
+
+.product {
+background: white;
+padding: 25px;
+width: 240px;
+border-radius: 12px;
+box-shadow: 0 4px 12px #00000012;
+}
+
+.food-image {
+font-size: 65px;
+padding: 15px;
+}
+
+.price {
+margin-top: 10px;
+font-size: 20px;
+font-weight: bold;
+color: #a52a20;
+}
+
+.note {
+margin-top: 20px;
+font-size: 13px;
+color: #705d53;
+}
+
+footer {
+text-align: center;
+padding: 25px;
+background: #7b1e16;
+color: white;
+}
+
+@media (max-width: 600px) {
+header {
+flex-direction: column;
+gap: 15px;
+}
+
+nav {
+justify-content: center;
+gap: 12px;
+}
+
+.hero h1 {
+font-size: 30px;
+}
+}2
